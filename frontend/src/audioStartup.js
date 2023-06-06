@@ -222,16 +222,16 @@ const audioStartup = async () => {
     Bakerloo: tubeDrumSampler,
     Central: tubeDrumSampler,
     Circle: tubeDrumSampler,
-    District: tubaSampler,
+    // District: tubeDrumSampler,
     Hammersmith_City: tubeDrumSampler,
     Jubilee: tubeDrumSampler,
     Metropolitan: tubeDrumSampler,
-    Northern: tubaSampler,
-    Piccadilly: saxophoneSampler,
-    Victoria: violaSampler, 
-    Waterloo_City: windChimesSampler,
+    Northern: tubeDrumSampler,
+    Piccadilly: tubeDrumSampler,
+    Victoria: tubeDrumSampler, 
+    Waterloo_City: tubeDrumSampler,
 
-    Pedal: sustainedHornSampler
+    // Pedal: tubeDrumSampler,
   };
 }
 

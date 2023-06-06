@@ -1,13 +1,11 @@
 const assignNoteForWaterlooAndCityLine = (stationName) => {
-  const lowOctave = 4;
-
   switch(stationName) {
     case 'Waterloo Underground Station':
-    return `D${lowOctave}`;
+    return 'C4';
     case 'Bank Underground Station':
-    return `C${lowOctave}`;
+    return 'D4';
     default:
-    return `A${lowOctave}`;
+    return 'C4';
     }
   }
   

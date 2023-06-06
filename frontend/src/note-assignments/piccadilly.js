@@ -1,87 +1,85 @@
 const assignNoteForPiccadilly = (stationName) => {
-  const lowOctave = 3;
-
   switch(stationName) {
     case 'Cockfosters':
-      return `G${lowOctave + 2}`;
+      return 'C4';
     case 'Oakwood':
-      return `G${lowOctave + 2}`;
+      return 'D4';
     case 'Southgate':
-      return `E${lowOctave + 2}`;
+      return 'E4';
     case 'ArnosGrove':
-      return `E${lowOctave + 2}`;
+      return 'G4';
     case 'BoundsGreen':
-      return `D${lowOctave + 2}`;
+      return 'A4';
     case 'WoodGreen':
-      return `D${lowOctave + 2}`;
+      return 'C5';
     case 'TurnpikeLane':
-      return `C${lowOctave + 2}`;
+      return 'D5';
     case 'ManorHouse':
-      return `C${lowOctave + 2}`;
+      return 'E5';
     case 'FinsburyPark':
-      return `C${lowOctave + 2}`;
+      return 'G5';
     case 'Arsenal':
-      return `A${lowOctave + 2}`;
+      return 'A5';
     case 'HollowayRoad':
-      return `A${lowOctave + 2}`;
+      return 'C6';
     case 'CaleonianRoad':
-      return `A${lowOctave + 2}`;
+      return 'C4';
     case 'KingsCrossStPancras':
-      return `G${lowOctave + 1}`;
+      return 'D4';
     case 'RussellSquare':
-      return `G${lowOctave + 1}`;
+      return 'E4';
     case 'Holborn':
-      return `G${lowOctave + 1}`;
+      return 'G4';
     case 'Covent Garden':
-      return `E${lowOctave + 1}`;
+      return 'A4';
     case 'Leicester Square':
-      return `E${lowOctave + 1}`;
+      return 'C5';
     case 'GreenPark':
-      return `E${lowOctave + 1}`;
+      return 'D5';
     case 'PiccadillyCircus':
-      return `D${lowOctave + 1}`;
+      return 'E5';
     case 'HydeParkCorner':
-      return `D${lowOctave + 1}`;
+      return 'G5';
     case 'Knightsbridge':
-      return `D${lowOctave + 1}`;
+      return 'A5';
     case 'SouthKensington':
-      return `C${lowOctave + 1}`;
+      return 'C6';
     case 'GloucesterRoad':
-      return `C${lowOctave + 1}`;
+      return 'C4';
     case 'EarlsCourt':
-      return `C${lowOctave + 1}`;
+      return 'D4';
     case 'BaronsCourt':
-      return `A${lowOctave + 1}`;
+      return 'E4';
     case 'Hammersmith':
-      return `A${lowOctave + 1}`;
+      return 'G4';
     case 'TurnhamGreen':
-      return `A${lowOctave + 1}`;
+      return 'A4';
     case 'Acton Town':
-      return `G${lowOctave}`;
+      return 'C4';
     case 'SouthEaling':
-      return `G${lowOctave}`;
+      return 'D4';
     case 'Northfields':
-      return `G${lowOctave}`;
+      return 'E4';
     case 'BostonManor':
-      return `E${lowOctave}`;
+      return 'G4';
     case 'Osterley':
-      return `E${lowOctave}`;
+      return 'A4';
     case 'HounslowEast':
-      return `E${lowOctave}`;
+      return 'C5';
     case 'HounslowCentral':
-      return `D${lowOctave}`;
+      return 'D5';
     case 'HounslowWest':
-      return `D${lowOctave}`;
+      return 'E5';
     case 'HattonCross':
-      return `D${lowOctave}`;
+      return 'G5';
     case 'HeathrowTerminal 4':
-      return `C${lowOctave}`;
+      return 'A5';
     case 'HeathrowTerminals23':
-      return `C${lowOctave}`;
+      return 'C4';
     case 'HeathrowTerminal5':
-      return `C${lowOctave}`;
+      return 'D4';
     default:
-      return `A${lowOctave}`;
+      return 'C4';
     }
   }
   
