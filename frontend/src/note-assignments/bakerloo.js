@@ -1,6 +1,4 @@
 const assignNoteForBakerloo = (stationName) => {
-  const lowOctave = 4;
-
   switch(stationName) {
     case 'Harrow_Wealdstone':
       return 'C4';
