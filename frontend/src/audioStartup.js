@@ -226,7 +226,7 @@ const audioStartup = async () => {
     Hammersmith_City: tubeDrumSampler,
     Jubilee: tubeDrumSampler,
     Metropolitan: tubeDrumSampler,
-    Northern: doubleBassPizzSampler,
+    Northern: tubaSampler,
     Piccadilly: saxophoneSampler,
     Victoria: violaSampler, 
     Waterloo_City: windChimesSampler,
