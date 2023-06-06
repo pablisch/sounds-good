@@ -3,57 +3,57 @@ const assignNoteForBakerloo = (stationName) => {
 
   switch(stationName) {
     case 'Harrow_Wealdstone':
-      return `C${lowOctave + 2}`;
+      return 'C4';
     case 'Kenton ':
-      return `A${lowOctave + 2}`;
+      return 'D4';
     case 'SouthKenton':
-      return `A${lowOctave + 2}`;
+      return 'E4';
     case 'NorthWembley':
-      return `G${lowOctave + 1}`;
+      return 'G4';
     case 'WembleyCentral':
-      return `G${lowOctave + 1}`;
+      return 'A4';
     case 'StonebridgePark':
-      return `E${lowOctave + 1}`;
+      return 'C5';
     case 'Harlesden':
-      return `E${lowOctave + 1}`;
+      return 'D5';
     case 'WillesdenJunction':
-      return `D${lowOctave + 1}`;
+      return 'E5';
     case 'KensalGreen':
-      return `D${lowOctave + 1}`;
+      return 'G5';
     case 'QueensPark':
-      return `C${lowOctave + 1}`;
+      return 'A5';
     case 'KilburnPark':
-      return `C${lowOctave + 1}`;
+      return 'C6';
     case 'MaidaVale':
-      return `A${lowOctave + 1}`;
+      return 'C4';
     case 'WarwickAvenue':
-      return `A${lowOctave + 1}`;
+      return 'D4';
     case 'Paddington':
-      return `G${lowOctave}`;
+      return 'E4';
     case 'EdgwareRoad(Bakerloo)':
-      return `G${lowOctave}`;
+      return 'G4';
     case 'Marylebone':
-      return `E${lowOctave}`;
+      return 'A4';
     case 'BakerStreet':
-      return `E${lowOctave}`;
+      return 'C5';
     case 'RegentsPark':
-      return `D${lowOctave}`;
+      return 'D5';
     case 'OxfordCircus':
-      return `D${lowOctave}`;
+      return 'E5';
     case 'PiccadillyCircus':
-      return `C${lowOctave}`;
+      return 'G5';
     case 'CharingCross ':
-      return `C${lowOctave}`;
+      return 'A5';
     case 'Embankment':
-      return `C${lowOctave}`;
+      return 'C6';
     case 'Waterloo':
-      return `C${lowOctave}`;
+      return 'C4';
     case 'LambethNorth':
-      return `A${lowOctave}`;
+      return 'D4';
     case 'Elephant_Castle':
-      return `A${lowOctave}`;
+      return 'E4';
     default:
-      return `A${lowOctave + 1}`;
+      return 'C4';
     }
   }
   

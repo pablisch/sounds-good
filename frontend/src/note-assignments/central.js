@@ -1,101 +1,101 @@
 const assignNoteForCentral = (stationName) => {
   switch(stationName) {
-    // case 'WestRuislip':
-    //   return 'A1';
-    // case 'RuislipGardens':
-    //   return 'A2';
-    // case 'SouthRuislip':
-    //   return 'A3';
-    // case 'Northolt':
-    //   return 'A4';
-    // case 'Greenford':
-    //   return 'A5';
-    // case 'Perivale':
-    //   return 'A6';
-    // case 'HangerLane':
-    //   return 'A7';
-    // case 'NorthActon':
-    //   return 'A8';
-    // case 'EastActon':
-    //   return 'A9';
-    // case 'WhiteCity':
-    //   return 'A10';
-    // case 'ShepherdsBush(Central)':
-    //   return 'A11';
-    // case 'HollandPark':
-    //   return 'A12';
-    // case 'NottingHillGate':
-    //   return 'A13';
-    // case 'Queensway':
-    //   return 'A14';
-    // case 'LancasterGate':
-    //   return 'A15';
-    // case 'MarbleArch':
-    //   return 'A16';
-    // case 'BondStreet':
-    //   return 'A17';
-    // case 'OxfordCircus':
-    //   return 'A18';
-    // case 'TottenhamCourtRoad':
-    //   return 'A19';
-    // case 'Holborn':
-    //   return 'A20';
-    // case 'ChanceryLane':
-    //   return 'A21';
-    // case 'St.Pauls':
-    //   return 'A22';
-    // case 'Bank':
-    //   return 'A23';
-    // case 'LiverpoolStreet':
-    //   return 'A24';
-    // case 'BethnalGreen':
-    //   return 'A25';
-    // case 'MileEnd':
-    //   return 'A26';
-    // case 'Stratford':
-    //   return 'A27';
-    // case 'Leyton':
-    //   return 'A28';
-    // case 'Leytonstone':
-    //   return 'A29';
-    // case 'Wanstead':
-    //   return 'A30';
-    // case 'Redbridge':
-    //   return 'A31';
-    // case 'GantsHill':
-    //   return 'A32';
-    // case 'NewburyPark':
-    //   return 'A33';
-    // case 'Barkingside':
-    //   return 'A34';
-    // case 'Fairlop':
-    //   return 'A35';
-    // case 'Hainault':
-    //   return 'A36';
-    // case 'GrangeHill':
-    //   return 'A37';
-    // case 'Chigwell':
-    //   return 'A38';
-    // case 'RodingValley':
-    //   return 'A39';
-    // case 'Snaresbrook':
-    //   return 'A40';
-    // case 'SouthWoodford':
-    //   return 'A41';
-    // case 'Woodford':
-    //   return 'A42';
-    // case 'BuckhurstHill':
-    //   return 'A43';
-    // case 'Loughton':
-    //   return 'A44';
-    // case 'Debden':
-    //   return 'A45';
-    // case 'TheydonBois ':
-    //   return 'A46';
-    // case 'Epping':
-    //   return 'A47';
-    default:
-      return 'C1';
+    case 'WestRuislip':
+      return 'C4';
+    case 'RuislipGardens':
+      return 'D4';
+    case 'SouthRuislip':
+      return 'E4';
+    case 'Northolt':
+      return 'G4';
+    case 'Greenford':
+      return 'A4';
+    case 'Perivale':
+      return 'C5';
+    case 'HangerLane':
+      return 'D5';
+    case 'NorthActon':
+      return 'E5';
+    case 'EastActon':
+      return 'G5';
+    case 'WhiteCity':
+      return 'A5';
+    case 'ShepherdsBush(Central)':
+      return 'C6';
+    case 'HollandPark':
+      return 'C4';
+    case 'NottingHillGate':
+      return 'D4';
+    case 'Queensway':
+      return 'E4';
+    case 'LancasterGate':
+      return 'G4';
+    case 'MarbleArch':
+      return 'A4';
+    case 'BondStreet':
+      return 'C5';
+    case 'OxfordCircus':
+      return 'D5';
+    case 'TottenhamCourtRoad':
+      return 'E5';
+    case 'Holborn':
+      return 'G5';
+    case 'ChanceryLane':
+      return 'A5';
+    case 'St.Pauls':
+      return 'C6';
+    case 'Bank':
+      return 'C4';
+    case 'LiverpoolStreet':
+      return 'D4';
+    case 'BethnalGreen':
+      return 'E4';
+    case 'MileEnd':
+      return 'G4';
+    case 'Stratford':
+      return 'A4';
+    case 'Leyton':
+      return 'C5';
+    case 'Leytonstone':
+      return 'D5';
+    case 'Wanstead':
+      return 'E5';
+    case 'Redbridge':
+      return 'G5';
+    case 'GantsHill':
+      return 'A5';
+    case 'NewburyPark':
+      return 'C6';
+    case 'Barkingside':
+      return 'C4';
+    case 'Fairlop':
+      return 'D4';
+    case 'Hainault':
+      return 'E4';
+    case 'GrangeHill':
+      return 'G4';
+    case 'Chigwell':
+      return 'A4';
+    case 'RodingValley':
+      return 'C5';
+    case 'Snaresbrook':
+      return 'D5';
+    case 'SouthWoodford':
+      return 'E5';
+    case 'Woodford':
+      return 'G5';
+    case 'BuckhurstHill':
+      return 'C6';
+    case 'Loughton':
+      return 'C4';
+    case 'Debden':
+      return 'D5';
+    case 'TheydonBois ':
+      return 'E5';
+    case 'Epping':
+      return 'G5';
+    // default:
+    //   return 'C1';
     }
   }
   
