@@ -1,6 +1,4 @@
 const assignNoteForDistrict = (stationName) => {
-  const lowOctave = 11;
-
   switch (stationName) {
     case 'Upminster':
       return 'C4';
