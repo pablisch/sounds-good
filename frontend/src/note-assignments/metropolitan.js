@@ -1,77 +1,75 @@
 const assignNoteForMetropolitan = (stationName) => {
-  const lowOctave = 3;
-
   switch(stationName) {
     case 'Amersham':
-      return `E${lowOctave}`;
+      return 'C4';
     case 'Chesham':
-      return `D${lowOctave}`;
+      return 'D4';
     case 'Chalfont&Latimer':
-      return `C${lowOctave}`;
+      return 'E4';
     case 'Chorleywood':
-      return `A${lowOctave}`;
+      return 'G4';
     case 'Watford':
-      return `G${lowOctave + 2}`;
+      return 'A4';
     case 'Rickmansworth':
-      return `E${lowOctave + 2}`;
+      return 'C5';
     case 'Croxley':
-      return `D${lowOctave + 2}`;
+      return 'D5';
     case 'MoorPark':
-      return `C${lowOctave + 2}`;
+      return 'E5';
     case 'Northwood':
-      return `A${lowOctave + 2}`;
+      return 'G5';
     case 'NorthwoodHills':
-      return `G${lowOctave + 1}`;
+      return 'A5';
     case 'Pinner':
-      return `E${lowOctave + 1}`;
+      return 'C6';
     case 'NorthHarrow':
-      return `D${lowOctave + 1}`;
+      return 'C4';
     case 'Uxbridge':
-      return `C${lowOctave + 1}`;
+      return 'D4';
     case 'Hillingdon':
-      return `A${lowOctave + 1}`;
+      return 'E4';
     case 'Ickenham':
-      return `G${lowOctave}`;
+      return 'G4';
     case 'Ruislip':
-      return `G${lowOctave}`;
+      return 'A4';
     case  'RuislipManor':
-      return `E${lowOctave}`;
+      return 'C5';
     case 'Eastcote':
-      return `D${lowOctave}`;
+      return 'D5';
     case 'RaynersLane':
-      return `C${lowOctave}`;
+      return 'E5';
     case 'WestHarrow':
-      return `A${lowOctave}`;
+      return 'G5';
     case 'Harrow-on-the-Hill':
-      return `G${lowOctave + 2}`;
+      return 'A5';
     case 'NorthwickPark':
-      return `E${lowOctave + 2}`;
+      return 'C6';
     case 'PrestonRoad':
-      return `D${lowOctave + 2}`;
+      return 'C4';
     case 'WembleyPark':
-      return `C${lowOctave + 2}`;
+      return 'D4';
     case 'FinchleyRoad':
-      return `A${lowOctave + 2}`;
+      return 'E4';
     case 'BakerStreet':
-      return `G${lowOctave + 1}`;
+      return 'G4';
     case 'GreatPortlandStreet':
-      return `E${lowOctave + 1}`;
+      return 'A4';
     case 'EustonSquare':
-      return `D${lowOctave + 1}`;
+      return 'C5';
     case 'KingsCrossStPancras':
-      return `C${lowOctave + 1}`;
+      return 'D5';
     case 'Farringdon':
-      return `A${lowOctave + 1}`;
+      return 'E5';
     case 'Barbican':
-      return `G${lowOctave}`;
+      return 'G5';
     case 'Moorgate':
-      return `E${lowOctave}`;
+      return 'A5';
     case 'LiverpoolStreet':
-      return `D${lowOctave}`;
+      return 'C6';
     case 'Aldgate':
-      return `C${lowOctave}`;
+      return 'C4';
     default:
-      return `A${lowOctave}`;
+      return 'C4';
     }
   }
   

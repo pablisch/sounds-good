@@ -219,13 +219,13 @@ const audioStartup = async () => {
   await Tone.loaded();
 
   return {
-    Bakerloo: violinSampler,
+    Bakerloo: tubeDrumSampler,
     Central: tubeDrumSampler,
-    Circle: violinSampler,
+    Circle: tubeDrumSampler,
     District: tubaSampler,
-    Hammersmith_City: celloSampler,
-    Jubilee: clarinetSampler,
-    Metropolitan: mandolinSampler,
+    Hammersmith_City: tubeDrumSampler,
+    Jubilee: tubeDrumSampler,
+    Metropolitan: tubeDrumSampler,
     Northern: doubleBassPizzSampler,
     Piccadilly: saxophoneSampler,
     Victoria: violaSampler, 
