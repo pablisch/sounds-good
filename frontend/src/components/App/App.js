@@ -75,7 +75,7 @@ function App() {
     setInterval(fetchData, dataBlockDuration * 1000);
     // Following block provides a looping pedal note:
     setInterval(() => {
-      instruments.Pedal.triggerAttackRelease('C4', '1n');
+      instruments.Pedal.triggerAttackRelease('C4', '8n');
     }, (dataBlockDuration / 60) * 2000);
   }
 
