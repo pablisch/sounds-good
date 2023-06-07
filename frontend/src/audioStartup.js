@@ -177,6 +177,26 @@ const violinSampler = new Tone.Sampler({
   }).toDestination();
   harpSampler.volume.value = -12;
 
+  const timpaniSampler = new Tone.Sampler({
+    urls: {
+      "A1": "timp_hit_a1.mp3",
+      "A2": "timp_hit_a2.mp3",
+      "C1": "timp_hit_c1.mp3",
+      "C2": "timp_hit_c2.mp3",
+      "C3": "timp_hit_c3.mp3",
+      "D1": "timp_hit_d1.mp3",
+      "D2": "timp_hit_d2.mp3",
+      "E1": "timp_hit_e1.mp3",
+      "E2": "timp_hit_e2.mp3",
+      "G1": "timp_hit_g1.mp3",
+      "G2": "timp_hit_g2.mp3"
+    },
+    release: 1,
+    baseUrl: "/samples/timpani_samples/",
+  }).toDestination();
+  timpaniSampler.volume.value = -12;
+  
+
   
   
 
@@ -191,7 +211,7 @@ const violinSampler = new Tone.Sampler({
     Jubilee: fhornSampler,
     Metropolitan: trumpetSampler,
     Northern: harpSampler,
-    // Piccadilly: violinSampler,
+    Piccadilly: timpaniSampler,
     // Victoria: violinSampler, 
     // Waterloo_City: violinSampler,
 
