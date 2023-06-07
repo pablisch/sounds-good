@@ -1,40 +1,40 @@
 const assignNoteForVictoria = (stationName) => {
   switch(stationName) {
     case 'WalthamstowCentral':
-      return 'C5';
+      return 'C3';
     case 'BlackhorseRoad':
-      return 'A5';
+      return 'D3';
     case 'TottenhamHale':
-      return 'G4';
+      return 'E3';
     case 'SevenSisters':
-      return 'E4';
+      return 'G3';
     case 'FinsburyPark':
-      return 'D4';
+      return 'A3';
     case 'Highbury&Islington':
       return 'C4';
     case "KingsCrossStPancras":
-      return 'A4';
+      return 'D4';
     case 'Euston':
-      return 'G3';
+      return 'E4';
     case 'WarrenStreet':
-      return 'E3';
+      return 'G4';
     case 'OxfordCircus':
-      return 'D3';
+      return 'A4';
     case 'GreenPark':
       return 'C3';
-    case 'VictoriaSt':
-      return 'A3';
+    case 'Victoria':
+      return 'D3';
     case 'Pimlico':
-      return 'G2';
+      return 'E3';
     case  'Vauxhall':
-      return 'E2';
+      return 'G3';
     case 'Stockwell':
-      return 'D2';
+      return 'A3';
     case 'Brixton':
-      return 'C2';
+      return 'C4';
     default:
       return 'C2';
   }
-}
+};
 
 module.exports = assignNoteForVictoria;

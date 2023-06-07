@@ -195,6 +195,25 @@ const violinSampler = new Tone.Sampler({
     baseUrl: "/samples/timpani_samples/",
   }).toDestination();
   timpaniSampler.volume.value = -12;
+
+  const oboeSampler = new Tone.Sampler({
+    urls: {
+      "A3": "oboe_legato_a3.mp3",
+      "A4": "oboe_legato_a4.mp3",
+      "C3": "oboe_legato_c3.mp3",
+      "C4": "oboe_legato_c4.mp3",
+      "C5": "oboe_legato_c5.mp3",
+      "D3": "oboe_legato_d3.mp3",
+      "D4": "oboe_legato_d4.mp3",
+      "E3": "oboe_legato_e3.mp3",
+      "E4": "oboe_legato_e4.mp3",
+      "G3": "oboe_legato_g3.mp3",
+      "G4": "oboe_legato_g4.mp3"
+    },
+    release: 1,
+    baseUrl: "/samples/oboe_samples/",
+  }).toDestination();
+  oboeSampler.volume.value = -12;
   
 
   
@@ -212,7 +231,7 @@ const violinSampler = new Tone.Sampler({
     Metropolitan: trumpetSampler,
     Northern: harpSampler,
     Piccadilly: timpaniSampler,
-    // Victoria: violinSampler, 
+    Victoria: oboeSampler, 
     // Waterloo_City: violinSampler,
 
     // Pedal: violinSampler
