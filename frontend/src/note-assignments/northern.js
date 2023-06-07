@@ -1,64 +1,64 @@
 const assignNoteForNorthern = (stationName) => {
   switch(stationName) {
     case 'MillHillEast':
-      return 'E2';
+      return 'C3';
     case 'FinchleyCentral':
-      return 'C2';
+      return 'D3';
     case 'Highgate':
-      return 'A2';
+      return 'E3';
     case 'Archway':
-      return 'G1';
+      return 'G3';
     case 'TufnellPark':
-      return 'E1';
+      return 'A3';
     case 'KentishTown':
-      return 'D1';
+      return 'C4';
     case "CamdenTown":
-      return 'C1';
+      return 'D4';
     case 'Euston':
-      return 'A1';
+      return 'E4';
     case "KingsCrossStPancras":
-      return 'G2';
+      return 'G4';
     case 'Angel':
-      return 'E2';
+      return 'A4';
     case 'OldStreet':
-      return 'D2';
+      return 'C5';
     case 'Moorgate':
-      return 'C2';
+      return 'D5';
     case 'Bank':
-      return 'A2';
+      return 'E5';
     case  'LondonBridge':
-      return 'G1';
+      return 'G5';
     case 'Borough':
-      return 'E1';
+      return 'A5';
     case 'Elephant&Castle':
-      return 'D1';
+      return 'C6';
     case 'Kennington':
-      return 'C1';
+      return 'C3';
     case 'Oval':
-      return 'A1';
+      return 'D3';
     case 'Stockwell':
-      return 'G2';
+      return 'E3';
     case 'ClaphamNorth':
-      return 'E2';
+      return 'G3';
     case 'ClaphamCommon':
-      return 'D2';
+      return 'A3';
     case 'ClaphamSouth':
-      return 'C2';
+      return 'C4';
     case 'Balham':
-      return 'A2';
+      return 'D4';
     case 'TootingBec':
-      return 'G1';
+      return 'E4';
     case 'TootingBroadway':
-      return 'E1';
+      return 'G4';
     case 'ColliersWood':
-      return 'D1';
+      return 'A4';
     case 'SouthWimbledon':
-      return 'C1';
+      return 'C5';
     case 'Morden':
-      return 'A1';
+      return 'D5';
     default:
-      return 'C2';
+      return 'C4';
   }
-}
+};
 
 module.exports = assignNoteForNorthern;
