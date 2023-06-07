@@ -6,26 +6,7 @@ const audioStartup = async () => {
   const reverb = new Tone.Reverb(2.5).toDestination(); // decay time as arg
   reverb.wet.value = 0.4; // 1 == 100% reverb. 0 == no reverb
 
-  
-
-  
-
-
-  
-
-  
-
-  
-
- 
-
-
-
-  
-
-  
-
-  const violinSampler = new Tone.Sampler({
+const violinSampler = new Tone.Sampler({
     urls: {
       "A3": "violin_legato_a3.mp3",
       "A4": "violin_legato_a4.mp3",
@@ -43,20 +24,40 @@ const audioStartup = async () => {
       "G3": "violin_legato_g3.mp3",
       "G4": "violin_legato_g4.mp3",
       "G5": "violin_legato_g5.mp3"
-
-      
     },
     release: 1,
-    baseUrl: "/samples/violin/violin_samples/",
+    baseUrl: "/samples/violin_samples/",
   }).toDestination();
   violinSampler.volume.value = -6;
+
+  const violaSampler = new Tone.Sampler({
+    urls: {
+      "A3": "viola_legato_a3.mp3",
+      "A4": "viola_legato_a4.mp3",
+      "A5": "viola_legato_a5.mp3",
+      "C3": "viola_legato_c3.mp3",
+      "C4": "viola_legato_c4.mp3",
+      "C5": "viola_legato_c5.mp3",
+      "D3": "viola_legato_d3.mp3",
+      "D4": "viola_legato_d4.mp3",
+      "D5": "viola_legato_d5.mp3",
+      "E3": "viola_legato_e3.mp3",
+      "E4": "viola_legato_e4.mp3",
+      "E5": "viola_legato_e5.mp3",
+      "G3": "viola_legato_g3.mp3",
+      "G4": "viola_legato_g4.mp3"
+    },
+    release: 1,
+    baseUrl: "/samples/viola_samples/",
+  }).toDestination();
+  violaSampler.volume.value = -6;
 
   
 
   await Tone.loaded();
 
   return {
-    // Bakerloo: violinSampler,
+    Bakerloo: violaSampler,
     Central: violinSampler,
     // Circle: violinSampler,
     // District: violinSampler,
