@@ -95,6 +95,25 @@ const violinSampler = new Tone.Sampler({
   }).toDestination();
   celloSampler.volume.value = -6;
 
+  const tubaSampler = new Tone.Sampler({
+    urls: {
+      "A1": "tuba_marc_a1.mp3",
+      "A2": "tuba_marc_a2.mp3",
+      "C1": "tuba_marc_c1.mp3",
+      "C2": "tuba_marc_c2.mp3",
+      "C3": "tuba_marc_c3.mp3",
+      "D1": "tuba_marc_d1.mp3",
+      "D2": "tuba_marc_d2.mp3",
+      "E1": "tuba_marc_e1.mp3",
+      "E2": "tuba_marc_e2.mp3",
+      "G1": "tuba_marc_g1.mp3",
+      "G2": "tuba_marc_g2.mp3"
+    },
+    release: 1,
+    baseUrl: "/samples/tuba_samples/",
+  }).toDestination();
+  tubaSampler.volume.value = -12;
+
   
 
   await Tone.loaded();
@@ -104,7 +123,7 @@ const violinSampler = new Tone.Sampler({
     Central: violinSampler,
     Circle: doublebassSampler,
     District: celloSampler,
-    // Hammersmith_City: violinSampler,
+    Hammersmith_City: tubaSampler,
     // Jubilee: violinSampler,
     // Metropolitan: violinSampler,
     // Northern: violinSampler,
