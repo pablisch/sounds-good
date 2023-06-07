@@ -114,6 +114,26 @@ const violinSampler = new Tone.Sampler({
   }).toDestination();
   tubaSampler.volume.value = -12;
 
+  const fhornSampler = new Tone.Sampler({
+    urls: {
+      "A2": "fhorn_stacc_a2.mp3",
+      "A3": "fhorn_stacc_a3.mp3",
+      "C2": "fhorn_stacc_c2.mp3",
+      "C3": "fhorn_stacc_c3.mp3",
+      "C4": "fhorn_stacc_c4.mp3",
+      "D2": "fhorn_stacc_d2.mp3",
+      "D3": "fhorn_stacc_d3.mp3",
+      "E2": "fhorn_stacc_e2.mp3",
+      "E3": "fhorn_stacc_e3.mp3",
+      "G2": "fhorn_stacc_g2.mp3",
+      "G3": "fhorn_stacc_g3.mp3"
+    },
+    release: 1,
+    baseUrl: "/samples/fhorn_samples/",
+  }).toDestination();
+  fhornSampler.volume.value = -12;
+
+  
   
 
   await Tone.loaded();
@@ -124,7 +144,7 @@ const violinSampler = new Tone.Sampler({
     Circle: doublebassSampler,
     District: celloSampler,
     Hammersmith_City: tubaSampler,
-    // Jubilee: violinSampler,
+    Jubilee: fhornSampler,
     // Metropolitan: violinSampler,
     // Northern: violinSampler,
     // Piccadilly: violinSampler,

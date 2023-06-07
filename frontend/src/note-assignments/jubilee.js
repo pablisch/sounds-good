@@ -1,61 +1,59 @@
 const assignNoteForJubilee = (stationName) => {
-  const lowOctave = 3;
-
   switch(stationName) {
     case 'Stanmore':
-      return `E${lowOctave + 2}`;
+      return 'C2';
     case 'CanonsPark':
-      return `E${lowOctave + 2}`;
+      return 'D2';
     case 'Queensbury':
-      return `D${lowOctave + 2}`;
+      return 'E2';
     case 'Kingsbury':
-      return `D${lowOctave + 2}`;
+      return 'G2';
     case 'WembleyPark':
-      return `C${lowOctave + 2}`;
+      return 'A2';
     case 'Neasden':
-      return `C${lowOctave + 2}`;
+      return 'C3';
     case "WillesdenGreen":
-      return `A${lowOctave + 2}`;
+      return 'D3';
     case 'Kilburn':
-      return `A${lowOctave + 2}`;
+      return 'E3';
     case 'WestHampstead':
-      return `E${lowOctave + 1}`;
+      return 'G3';
     case 'FinchleyRoad':
-      return `E${lowOctave + 1}`;
+      return 'A3';
     case 'SwissCottage':
-      return `D${lowOctave + 1}`;
+      return 'C4';
     case "StJohnsWood":
-      return `D${lowOctave + 1}`;
+      return 'C2';
     case 'BakerStreet':
-      return `C${lowOctave + 1}`;
+      return 'D2';
     case  'BondStreet':
-      return `C${lowOctave + 1}`;
+      return 'E2';
     case 'GreenPark':
-      return `A${lowOctave + 1}`;
+      return 'G2';
     case 'Westminster':
-      return `A${lowOctave + 1}`;
+      return 'A2';
     case 'Waterloo':
-      return `E${lowOctave}`;
+      return 'C3';
     case 'Southwark':
-      return `E${lowOctave}`;
+      return 'D3';
     case 'LondonBridge':
-      return `D${lowOctave}`;
+      return 'E3';
     case 'Bermondsey':
-      return `D${lowOctave}`;
+      return 'G3';
     case 'CanadaWater':
-      return `C${lowOctave}`;
+      return 'A3';
     case 'CanaryWharf':
-      return `C${lowOctave}`;
+      return 'C4';
     case 'NorthGreenwich':
-      return `A${lowOctave}`;
+      return 'C2';
     case 'CanningTown':
-      return `A${lowOctave}`;
+      return 'D2';
     case 'WestHam ':
-      return `C${lowOctave}`;
+      return 'E2';
     case 'Stratford':
-      return `C${lowOctave}`;
+      return 'G2';
     default:
-      return `C${lowOctave + 1}`;
+      return 'C3';
   }
 }
 
