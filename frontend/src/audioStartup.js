@@ -52,6 +52,25 @@ const violinSampler = new Tone.Sampler({
   }).toDestination();
   violaSampler.volume.value = -6;
 
+  const doublebassSampler = new Tone.Sampler({
+    urls: {
+      "A1": "doublebass_legato_a1.mp3",
+      "A2": "doublebass_legato_a2.mp3",
+      "C1": "doublebass_legato_c1.mp3",
+      "C2": "doublebass_legato_c2.mp3",
+      "C3": "doublebass_legato_c3.mp3",
+      "D1": "doublebass_legato_d1.mp3",
+      "D2": "doublebass_legato_d2.mp3",
+      "E1": "doublebass_legato_e1.mp3",
+      "E2": "doublebass_legato_e2.mp3",
+      "G1": "doublebass_legato_g1.mp3",
+      "G2": "doublebass_legato_g2.mp3"
+    },
+    release: 1,
+    baseUrl: "/samples/doublebass_samples/",
+  }).toDestination();
+  doublebassSampler.volume.value = -6;
+
   
 
   await Tone.loaded();
@@ -59,7 +78,7 @@ const violinSampler = new Tone.Sampler({
   return {
     Bakerloo: violaSampler,
     Central: violinSampler,
-    // Circle: violinSampler,
+    Circle: doublebassSampler,
     // District: violinSampler,
     // Hammersmith_City: violinSampler,
     // Jubilee: violinSampler,

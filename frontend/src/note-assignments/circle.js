@@ -1,82 +1,82 @@
 const assignNoteForCircle = (stationName) => {
-  const lowOctave = 4;
-
   switch(stationName) {
     case 'Hammersmith(H&CLine)':
-      return `G${lowOctave + 2}`;
+      return 'C1';
     case 'GoldhawkRoad':
-      return `G${lowOctave + 2}`;
+      return 'D1';
     case 'ShepherdsBushMarket':
-      return `E${lowOctave + 2}`;
+      return 'E1';
     case 'WoodLane':
-      return `E${lowOctave + 2}`;
+      return 'G1';
     case 'LatimerRoad':
-      return `D${lowOctave + 2}`;
+      return 'A1';
     case 'LadbrokeGrove':
-      return `D${lowOctave + 2}`;
+      return 'C2';
     case 'WestbournePark':
-      return `C${lowOctave + 2}`;
+      return 'D2';
     case 'RoyalOak':
-      return `C${lowOctave + 2}`;
+      return 'E2';
     case 'Paddington(H&CLine)-Underground':
-      return `A${lowOctave + 2}`;
+      return 'G2';
     case 'Paddington':
-      return `A${lowOctave + 2}`;
+      return 'A2';
     case 'EdgwareRoad(CircleLine)':
-      return `G${lowOctave + 1}`;
+      return 'C3';
     case 'BakerStreet':
-      return `G${lowOctave + 1}`;
+      return 'C1';
     case 'GreatPortlandStreet':
-      return `E${lowOctave + 1}`;
+      return 'D1';
     case 'EustonSquare':
-      return `E${lowOctave + 1}`;
+      return 'E1';
     case 'KingsCrossStPancras':
-      return `E${lowOctave + 1}`;
+      return 'G1';
     case 'Farringdon':
-      return `D${lowOctave + 1}`;
+      return 'A1';
     case 'Barbican':
-      return `D${lowOctave + 1}`;
+      return 'C2';
     case 'Moorgate':
-      return `D${lowOctave + 1}`;
+      return 'D2';
     case 'LiverpoolStreet':
-      return `C${lowOctave + 1}`;
+      return 'E2';
     case 'Aldgate':
-      return `C${lowOctave + 1}`;
+      return 'G2';
     case 'TowerHill':
-      return `C${lowOctave + 1}`;
+      return 'A2';
     case 'Monument':
-      return `A${lowOctave + 1}`;
+      return 'C3';
     case 'CannonStreet':
-      return `A${lowOctave + 1}`;
+      return 'C1';
     case 'MansionHouse':
-      return `A${lowOctave + 1}`;
+      return 'D1';
     case 'Blackfriars':
-      return `G${lowOctave}`;
+      return 'E1';
     case 'Temple':
-      return `G${lowOctave}`;
+      return 'G1';
     case 'Embankment':
-      return `G${lowOctave}`;
+      return 'A1';
     case 'Westminster':
-      return `E${lowOctave}`;
+      return 'C2';
     case 'StJamessPark':
-      return `E${lowOctave}`;
-    case 'VictoriaSt':
-      return `E${lowOctave}`;
+      return 'D2';
+    case 'Victoria':
+      return 'E2';
     case 'SloaneSquare':
-      return `D${lowOctave}`;
+      return 'G2';
     case 'SouthKensington':
-      return `D${lowOctave}`;
+      return 'A2';
     case 'GloucesterRoad':
-      return `D${lowOctave}`;
+      return 'C3';
     case 'HighStreetKensington':
-      return `C${lowOctave}`;
+      return 'C1';
     case 'NottingHillGate':
-      return `C${lowOctave}`;
+      return 'D2';
     case 'Bayswater':
-      return `C${lowOctave}`;
+      return 'E2';
     default:
-      return `A${lowOctave}`;
+      return 'C1';
   }
 }
+
+module.exports = assignNoteForCircle;
 
 module.exports = assignNoteForCircle;
