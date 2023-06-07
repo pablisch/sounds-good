@@ -169,8 +169,7 @@ const violinSampler = new Tone.Sampler({
       "E5": "harp_pluck_e5.mp3",
       "G3": "harp_pluck_g3.mp3",
       "G4": "harp_pluck_g4.mp3",
-      "G5": "harp_pluck_g5.mp3",
-      "C6": "harp_pluck_c6.mp3",
+      "G5": "harp_pluck_g5.mp3"
     },
     release: 1,
     baseUrl: "/samples/harp_samples/",
@@ -214,6 +213,15 @@ const violinSampler = new Tone.Sampler({
     baseUrl: "/samples/oboe_samples/",
   }).toDestination();
   oboeSampler.volume.value = -12;
+
+  const gongSampler = new Tone.Sampler({
+    urls: {
+      "C4": "gong_c4.mp3"
+    },
+    release: 1,
+    baseUrl: "/samples/gong_samples/",
+  }).toDestination();
+  oboeSampler.volume.value = -6;
   
 
   
@@ -232,7 +240,7 @@ const violinSampler = new Tone.Sampler({
     Northern: harpSampler,
     Piccadilly: timpaniSampler,
     Victoria: oboeSampler, 
-    // Waterloo_City: violinSampler,
+    Waterloo_City: gongSampler,
 
     // Pedal: violinSampler
   };
