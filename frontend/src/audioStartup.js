@@ -71,6 +71,30 @@ const violinSampler = new Tone.Sampler({
   }).toDestination();
   doublebassSampler.volume.value = -6;
 
+  const celloSampler = new Tone.Sampler({
+    urls: {
+      "A1": "cello_legato_a1.mp3",
+      "A2": "cello_legato_a2.mp3",
+      "A3": "cello_legato_a3.mp3",
+      "C1": "cello_legato_c1.mp3",
+      "C2": "cello_legato_c2.mp3",
+      "C3": "cello_legato_c3.mp3",
+      "C4": "cello_legato_c4.mp3",
+      "D1": "cello_legato_d1.mp3",
+      "D2": "cello_legato_d2.mp3",
+      "D3": "cello_legato_d3.mp3",
+      "E1": "cello_legato_e1.mp3",
+      "E2": "cello_legato_e2.mp3",
+      "E3": "cello_legato_e3.mp3",
+      "G1": "cello_legato_g1.mp3",
+      "G2": "cello_legato_g2.mp3",
+      "G3": "cello_legato_g3.mp3",
+    },
+    release: 1,
+    baseUrl: "/samples/cello_samples/",
+  }).toDestination();
+  celloSampler.volume.value = -6;
+
   
 
   await Tone.loaded();
@@ -79,7 +103,7 @@ const violinSampler = new Tone.Sampler({
     Bakerloo: violaSampler,
     Central: violinSampler,
     Circle: doublebassSampler,
-    // District: violinSampler,
+    District: celloSampler,
     // Hammersmith_City: violinSampler,
     // Jubilee: violinSampler,
     // Metropolitan: violinSampler,
